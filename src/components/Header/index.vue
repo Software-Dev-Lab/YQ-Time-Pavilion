@@ -1,30 +1,14 @@
 <script setup lang="ts">
-import { Header } from 'element-ui';
 </script>
 
 <template>
     <div>
-        <Header class="Header">
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>时光档案馆</title>
-
-            <!-- font awesome cdn link  -->
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
-
-            <input type="checkbox" name="" id="toggler">
-            <label for="toggler" class="fas fa-bars"></label>
-
-            <a href="#" class="logo">时光档案馆<span>.</span></a>
-
+        <header class="Header">
             <nav class="navbar">
                 <a href="#home">首页</a>
                 <a href="#about">历史长廊</a>
                 <a href="#products">历史人物</a>
                 <a href="#review">古代遗址</a>
-
             </nav>
 
             <div class="icons">
@@ -100,5 +84,4 @@ header .fa-bars {
     border: .1rem solid rgba(0, 0, 0, .3);
     display: none;
 }
-</style>
 </style>
